@@ -287,9 +287,6 @@ INSERT INTO projects_issues_tags (issue_id, tag_id, created_at, updated_at)
 );
 #--
 
-#--#Ccreate activity type for tag update
-INSERT INTO `activity` (`id`, `description`, `activity`)
-VALUES ('6', 'Updated issue tags', 'update-issue-tags');
 #----- Last line of this file .... Anything bellow this line will be lost. -----
 
 #--#Create a first admin user:

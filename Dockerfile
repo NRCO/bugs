@@ -2,7 +2,7 @@ FROM php:7-apache
 
 COPY . /var/www/html
 
-COPY bugs-apache.conf /etc/apache2/sites-enabled/000-crm.conf
+COPY bugs-apache.conf /etc/apache2/sites-enabled/bugs-apache.conf
 
 COPY config.env.app.php /var/www/html/config.app.php
 
